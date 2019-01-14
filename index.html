@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vis1</title>
+	<link rel="stylesheet" href="./css/data-visual.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="./js/d3.layout.cloud.js" ></script>
+	<script type="text/javascript" src="./js/data-visual.js"></script>
+</head>
+<body>
+	<header>
+		<h1 id="main_heading">Lab 2 Data visual using D3.js</h1>
+		<div class="main_selection">
+			<span title="Bar graph plot">
+				<a id="bargraph" class="selection" href="javascript:void(0)" >Load data<br/></a>
+				</span>
+		</div>
+	</header>
+	<section id="draw_section">
+		<h2>Data vis:</h2>
+		<span>Draw top </span>
+		<select id="cloud_size"></select>
+		<span> words</span>
+		<input type="button" value="GO!" onclick="load_cloud()" />
+		<div id = "draw_window">&nbsp;</div>
+	</section>
+	
+	<footer>
+		<p></p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+html * {
+	font-family: 'Arial'
+}
+
+h1 {
+	color: seagreen;	
+}
+
+.main_selection {
+	margin: 10px,10px,10px,10px;
+	width:100%;
+	overflow: hidden;
+	background: lightgray;
+	height: 35px;
+}
+
+a:link, a:visited{
+	float: left;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 3px;
+	background-color: darkgrey;
+}
+a:hover, a:active {
+    background-color: black;
+}
+
+body {
+        font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;
+    }
+.legend {
+	border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.8em;
+    margin: 10px;
+    padding: 8px;
+}
+.bld {
+	font-weight: bold;
+}
